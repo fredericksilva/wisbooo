@@ -1,4 +1,6 @@
-
+html{
+  font-family: 'Droid Sans';
+}
 .hero{
   .phone{
     margin: 44px 54px 51px 202px;
@@ -21,72 +23,6 @@
     border-image:
       linear-gradient(to top, $color-orange, rgba(0, 0, 0, 0)) 1 100%;
     }
-}
-
-#vantagens{
-  background: $background-color;
-  padding-bottom: 65px;
-
-  .title{
-    text-align: center;
-    font-size: 18px;
-  }
-  .description{
-    color: $color-gray;
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-    width: 207px;
-    margin: 0 auto;
-  }
-  .container-vantagens{
-      margin: 61px 0 65px 0;
-  }
-
-  &:before{
-      content: "";
-      display:block;
-      position: relative;
-      width: 100%;
-      bottom: 10px;
-      height: 37px;
-      background: -webkit-linear-gradient(45deg, transparent 70%, white 75%) 0 50%, -webkit-linear-gradient(130deg, transparent 70%, white 75%) 0 50%;
-      background: -moz-linear-gradient(-45deg, transparent 70%, white 75%) 0 50%, -moz-linear-gradient(45deg, transparent 70%, white 75%) 0 50%;
-      background: -o-linear-gradient(-45deg, transparent 70%, white 75%) 0 50%, -o-linear-gradient(45deg, transparent 70%, white 75%) 0 50%;
-      background: -ms-linear-gradient(-45deg, transparent 70%, white 75%) 0 50%, -ms-linear-gradient(45deg, transparent 70%, white 75%) 0 50%;
-      background: linear-gradient(-45deg, transparent 70%, white 75%) 0 50%, linear-gradient(45deg, transparent 70%, white 75%) 0 50%;
-
-    background-repeat: repeat-x;
-    background-size:25px 20px, 25px 20px;
-  }
-}
-
-#subscribe{
-  color: #fff;
-  font-size: 18px;
-  font-weight: 300;
-  background: $color-orange;
-  box-shadow: 0 0 7px rgba(0,0,0,0.4);
-  height: auto;
-  .mail-subscribe{
-    form{
-      text-align: center;
-    }
-    .title{
-      margin: 22px 0 26px 0;
-      text-align: center;
-    }
-    .mail{
-      border-radius: 11px;
-      border: 1px solid #dbdbdb;
-      background-color: #fff;
-      padding: 5px 5px;
-      margin-bottom: 20px;
-      font-size: 1em;
-      width: 78%;
-      text-align: center;
-    }
-  }
 }
 
 .btn-cheese{
