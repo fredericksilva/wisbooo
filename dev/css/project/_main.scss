@@ -1,19 +1,19 @@
-html{
-  font-family: 'Droid Sans';
+body{
+  font-family: $font;
 }
 .hero{
   .phone{
     margin: 44px 54px 51px 202px;
   }
   .logo{
-    margin:157px 192px 0 36px;
+    margin: 157px 192px 0 36px;
   }
   .left-to-right{
     border-width: 3px 0 3px 3px;
     border-style: solid;
     border-style: solid;
     -webkit-border-image:
-      -webkit-gradient(linear, 0 100%, 0 0, from($color-orange), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-gradient(linear, 0 100%, 0 0, from($color-orange), to(rgba(0, 0, 0, 0))) 1 100%;
     -webkit-border-image:
       -webkit-linear-gradient(bottom, $color-orange, rgba(0, 0, 0, 0)) 1 100%;
     -moz-border-image:
