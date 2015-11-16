@@ -1,0 +1,27 @@
+#subscribe{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  background: $color-orange;
+  box-shadow: 0 0 7px rgba(0,0,0,0.4);
+  height: auto;
+  .mail-subscribe{
+    form{
+      text-align: center;
+    }
+    .title{
+      margin: 22px 0 26px 0;
+      text-align: center;
+    }
+    .mail{
+      border-radius: 11px;
+      border: 1px solid #dbdbdb;
+      background-color: #fff;
+      padding: 5px 5px;
+      margin-bottom: 20px;
+      font-size: 1em;
+      width: 78%;
+      text-align: center;
+    }
+  }
+}

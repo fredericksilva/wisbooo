@@ -1,0 +1,37 @@
+#vantagens{
+  background: $background-color;
+  padding-bottom: 65px;
+
+  .title{
+    text-align: center;
+    font-size: 18px;
+  }
+  .description{
+    color: $color-gray;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    width: 207px;
+    margin: 0 auto;
+  }
+  .container-vantagens{
+      margin: 61px 0 65px 0;
+  }
+
+  &:before{
+      content: "";
+      display:block;
+      position: relative;
+      width: 100%;
+      bottom: 10px;
+      height: 37px;
+      background: -webkit-linear-gradient(45deg, transparent 70%, white 75%) 0 50%, -webkit-linear-gradient(130deg, transparent 70%, white 75%) 0 50%;
+      background: -moz-linear-gradient(-45deg, transparent 70%, white 75%) 0 50%, -moz-linear-gradient(45deg, transparent 70%, white 75%) 0 50%;
+      background: -o-linear-gradient(-45deg, transparent 70%, white 75%) 0 50%, -o-linear-gradient(45deg, transparent 70%, white 75%) 0 50%;
+      background: -ms-linear-gradient(-45deg, transparent 70%, white 75%) 0 50%, -ms-linear-gradient(45deg, transparent 70%, white 75%) 0 50%;
+      background: linear-gradient(-45deg, transparent 70%, white 75%) 0 50%, linear-gradient(45deg, transparent 70%, white 75%) 0 50%;
+
+    background-repeat: repeat-x;
+    background-size:25px 20px, 25px 20px;
+  }
+}
